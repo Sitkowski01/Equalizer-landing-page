@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-image: url("assets/pulpit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    width: 100%;
+    height: 260vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.logo1{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.first-column{
+    position: relative;
+    display: flex;
+    top: 6%;
+    right: 12%;
+    justify-content: space-around;
+    gap: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    width: 57%;
+}
+.top-title{
+    font-size: 88px;
+    color: #191826;
+    font-weight: bold;
+    line-height: 1;
+}
+.top-text{
+    font-size: 20px;
+    color: #191826;
+    line-height: 1.7;
+}
+.photo-img{
+    width: 1200px;
+    height: 600px;
+}
+.phone-img{
+    width: 312px;
+    height: 642px;
+}
+.phone{
+    position: absolute;
+    top:95%;
+    left: 19%;
+}
+.photo{
+    position: absolute;
+    top: 122%;
+    right: 11%;
+}
+.red-rectangle{
+    position: relative;
+    left: 15%;
+    top: 12%;
+    background-color: #FA7453;
+    z-index: 2;
+    width: 446px;
+    height: 625px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 12px;
+}
+.title-rectangle{
+    position: relative;
+    left: 40px;
+    top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FCFAF9;
+}
+.text-rectangle{
+    position: relative;
+    left: 40px;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 300;
+    color: #FCFAF9;
+    width: 73%;
+}
+.bold{
+    font-size: 65px;
+    font-weight: bold;
+    color: #FCFAF9;
+}
+.price{
+    font-size: 65px;
+    font-weight: bold;
+}
+.row{
+    position: relative;
+    left: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    color: #FCFAF9;
+    font-size: 20px;
+}
+.first-button{
+    position: relative;
+    left: 8%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #191826;
+    padding: 4% 7%;
+    width: 70%;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.first-button:hover{
+    background-color: #66E2DC;
+}
+.gap{
+    display: flex;
+    gap: 10px;
+}
+.second-button{
+    position: relative;
+    left: 8%;
+    bottom: 4%;
+    color: #191826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #FCFAF9;
+    padding: 4% 7%;
+    width: 70%;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.second-button:hover{
+    background-color: #FFB964;
+}
+.bottom-row{
+    position: relative;
+    top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact{
+    font-size: 16px;
+    width: 50%;
+}
+.icons-row{
+    position: relative;
+    left: 200%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.gap-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.logo2{
+    position: relative;
+    right: 16%;
+    bottom: 30%;
+}
+.e-mail{
+    font-weight: bold;
+}
+.first-icon:hover path{
+    fill: #FA7453;
+  }
+  .second-icon:hover path{
+    fill: #FA7453;
+  }
+  .third-icon:hover path{
+    fill: #FA7453;
+  }
