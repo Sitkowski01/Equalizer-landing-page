@@ -22,7 +22,7 @@ body{
 }
 .logo1{
     position: absolute;
-    left: 8%;
+    left: 10%;
     top: 10%;
 }
 .first-column{
@@ -35,7 +35,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     justify-items: flex-start;
-    width: 62%;
+    width: 57%;
 }
 .top-title{
     font-size: 88px;
@@ -58,8 +58,8 @@ body{
 }
 .phone{
     position: absolute;
-    top:99%;
-    left:15%;
+    top:95%;
+    left: 19%;
 }
 .photo{
     position: absolute;
@@ -68,8 +68,8 @@ body{
 }
 .red-rectangle{
     position: relative;
-    left: 13%;
-    top: 10%;
+    left: 15%;
+    top: 12%;
     background-color: #FA7453;
     z-index: 2;
     width: 446px;
@@ -198,6 +198,6 @@ body{
   .second-icon:hover path{
     fill: #FA7453;
   }
-  .third-icon:hover path{
+  .three-icon:hover path{
     fill: #FA7453;
   }
