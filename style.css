@@ -35,7 +35,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     justify-items: flex-start;
-    width: 60%;
+    width: 65%;
 }
 .top-title{
     font-size: 88px;
@@ -58,8 +58,7 @@ body{
 }
 .phone{
     position: absolute;
-    top:100%;
-    left: 12%;
+    top:105%;
 }
 .photo{
     position: absolute;
